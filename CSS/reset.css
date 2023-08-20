@@ -34,7 +34,7 @@ blockquote, q {
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
+	content: "";
 	content: none;
 }
 table {
@@ -44,4 +44,9 @@ table {
 
 input:focus {
 	outline: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
 }
